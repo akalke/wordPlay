@@ -36,8 +36,11 @@
 
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    //Setting up desintation VC and pass parameter of appropriate segue in
     ResultsViewControllerViewController *resultsViewController = segue.destinationViewController;
     resultsViewController.title = [sender currentTitle];
+
+    //Set variable values within Results VC
     resultsViewController.adjective = [self.adjectiveTextField text];
     resultsViewController.name = self.name;
     resultsViewController.location = self.location;

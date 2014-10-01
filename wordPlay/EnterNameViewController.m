@@ -38,10 +38,13 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    //Setting up desintation VC and pass parameter of appropriate segue in
     EnterActionViewController *actionViewController = segue.destinationViewController;
     actionViewController.title = [sender currentTitle];
+
+    //Set variable values within Action VC
     actionViewController.name = [self.nameTextField text];
-    NSLog(@"%@", actionViewController.name);
 }
 
 /*

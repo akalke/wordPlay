@@ -37,8 +37,12 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    //Setting up desintation VC and pass parameter of appropriate segue in
     EnterAdjectiveViewController *adjectiveViewController = segue.destinationViewController;
     adjectiveViewController.title = [sender currentTitle];
+
+    //Set variable values within Adjective VC
     adjectiveViewController.location = [self.locationTextField text];
     adjectiveViewController.name = self.name;
     adjectiveViewController.action = self.action;

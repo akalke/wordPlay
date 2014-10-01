@@ -40,8 +40,12 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    //Setting up desintation VC and pass parameter of appropriate segue in
     EnterLocationViewController *locationViewController = segue.destinationViewController;
     locationViewController.title = [sender currentTitle];
+
+    //Set variable values within Location VC
     locationViewController.action = [self.actionTextField text];
     locationViewController.name = self.name;
 }
