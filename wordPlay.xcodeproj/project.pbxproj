@@ -14,6 +14,11 @@
 		6C0A306E19DB450F00041BE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0A306D19DB450F00041BE3 /* Images.xcassets */; };
 		6C0A307119DB450F00041BE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0A306F19DB450F00041BE3 /* LaunchScreen.xib */; };
 		6C0A307D19DB450F00041BE3 /* wordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A307C19DB450F00041BE3 /* wordPlayTests.m */; };
+		6C10CF8719DB93C7002FD2AF /* EnterActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10CF8619DB93C7002FD2AF /* EnterActionViewController.m */; };
+		6C10CF8A19DB945E002FD2AF /* EnterLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10CF8919DB945E002FD2AF /* EnterLocationViewController.m */; };
+		6C46A8CF19DB4D4900A4ABBA /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C46A8CE19DB4D4900A4ABBA /* EnterNameViewController.m */; };
+		6C9B3BDF19DB4F8800253D57 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B3BDE19DB4F8800253D57 /* EnterAdjectiveViewController.m */; };
+		6C9B3BE219DB512F00253D57 /* ResultsViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B3BE119DB512F00253D57 /* ResultsViewControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		6C0A307619DB450F00041BE3 /* wordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0A307B19DB450F00041BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C0A307C19DB450F00041BE3 /* wordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordPlayTests.m; sourceTree = "<group>"; };
+		6C10CF8519DB93C7002FD2AF /* EnterActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterActionViewController.h; sourceTree = "<group>"; };
+		6C10CF8619DB93C7002FD2AF /* EnterActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterActionViewController.m; sourceTree = "<group>"; };
+		6C10CF8819DB945E002FD2AF /* EnterLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterLocationViewController.h; sourceTree = "<group>"; };
+		6C10CF8919DB945E002FD2AF /* EnterLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterLocationViewController.m; sourceTree = "<group>"; };
+		6C46A8CD19DB4D4900A4ABBA /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		6C46A8CE19DB4D4900A4ABBA /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		6C9B3BDD19DB4F8800253D57 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		6C9B3BDE19DB4F8800253D57 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		6C9B3BE019DB512F00253D57 /* ResultsViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewControllerViewController.h; sourceTree = "<group>"; };
+		6C9B3BE119DB512F00253D57 /* ResultsViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,16 @@
 				6C0A306D19DB450F00041BE3 /* Images.xcassets */,
 				6C0A306F19DB450F00041BE3 /* LaunchScreen.xib */,
 				6C0A306019DB450F00041BE3 /* Supporting Files */,
+				6C46A8CD19DB4D4900A4ABBA /* EnterNameViewController.h */,
+				6C46A8CE19DB4D4900A4ABBA /* EnterNameViewController.m */,
+				6C10CF8519DB93C7002FD2AF /* EnterActionViewController.h */,
+				6C10CF8619DB93C7002FD2AF /* EnterActionViewController.m */,
+				6C10CF8819DB945E002FD2AF /* EnterLocationViewController.h */,
+				6C10CF8919DB945E002FD2AF /* EnterLocationViewController.m */,
+				6C9B3BDD19DB4F8800253D57 /* EnterAdjectiveViewController.h */,
+				6C9B3BDE19DB4F8800253D57 /* EnterAdjectiveViewController.m */,
+				6C9B3BE019DB512F00253D57 /* ResultsViewControllerViewController.h */,
+				6C9B3BE119DB512F00253D57 /* ResultsViewControllerViewController.m */,
 			);
 			path = wordPlay;
 			sourceTree = "<group>";
@@ -221,6 +246,11 @@
 			files = (
 				6C0A306919DB450F00041BE3 /* ViewController.m in Sources */,
 				6C0A306619DB450F00041BE3 /* AppDelegate.m in Sources */,
+				6C10CF8719DB93C7002FD2AF /* EnterActionViewController.m in Sources */,
+				6C9B3BE219DB512F00253D57 /* ResultsViewControllerViewController.m in Sources */,
+				6C9B3BDF19DB4F8800253D57 /* EnterAdjectiveViewController.m in Sources */,
+				6C46A8CF19DB4D4900A4ABBA /* EnterNameViewController.m in Sources */,
+				6C10CF8A19DB945E002FD2AF /* EnterLocationViewController.m in Sources */,
 				6C0A306319DB450F00041BE3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +442,7 @@
 				6C0A308219DB450F00041BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C0A308319DB450F00041BE3 /* Build configuration list for PBXNativeTarget "wordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +451,7 @@
 				6C0A308519DB450F00041BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
